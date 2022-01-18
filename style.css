@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+.carousel-item {
+    /* height: 100vh; */
+    min-height: 100px;
+}
+.carousel-caption{
+    bottom: 50px;
+}
+.carousel-caption h5{
+    color: rgb(78, 100, 226);
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+.carousel-caption h6{
+    color: rgb(0, 241, 209);
+    font-size: 18px;
+    margin: auto;
+    width: 60%;
+    line-height: 1.9;   
+}
+
+nav {
+    background-color: #11496E;
+}
+
+
+#navbarNavAltMarkup a:link {
+    color: rgb(2, 133, 255);
+}
+
+#navbarNavAltMarkup a:visited {
+    color: rgba(201, 201, 201, 0.699);
+} 
+
+#navbarNavAltMarkup a:hover {
+    color: rgba(91, 236, 247, 0.667);
+}
+#navbarNavAltMarkup a:active {
+    color: rgb(236, 66, 60);
+}   
+
+#button:hover {
+    background-color: rgb(236, 66, 60);
+}
+
+.items{
+    transition: .25s ease-in-out;
+}
+
+.items:hover{
+    filter: brightness(50%);
+    background-color: rgb(2, 133, 255);
+}
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+    margin-top: -110px;
+}
+
+body #visi{
+    width: 100%;
+}
+
+body #misi{
+    width: 100%;
+}
+
+.clients {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+}
+
+.service {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+}
+
+.portfolio {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    /* height: 50px; */
+    padding: 50px 0;
+}
+
+.jumbotron {
+    background-image: url('img/web.jfif');
+    color: rgb(12, 12, 12);
+    background-size: cover;
+    height: 520px;
+    background-position: center center;
+    margin-left: 500px;
+}
+
+.jumbotron .lead {
+    filter: brightness(100%);
+    color: rgb(0, 47, 255);
+    margin-left: 600px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* .card {
+    width: 15rem;
+    margin-top: 11px;
+    margin-left: 10px;
+} */
+
+section {
+    padding: 20px 0;
+}
+
+.card .display-4 {
+    font-size: 35px
+}
+
+hr {
+    width: 100%;
+    border-top: 5px solid #000000;
+    /* margin-top: -55px; */
+}
+
+#projects {
+    background-color: #99cff1;
+}
+
+#project {
+    background-color: #71d4a6;
+}
+
+.testimonial {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+    background-color:#99cff1;
+
+}
+
+.aboutuss {
+    padding-top: 2rem;
+    background-color:#0099ff;
+}
+
+@media screen and(max-width: 100%){
+    *.card{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
