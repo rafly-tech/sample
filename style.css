@@ -57,6 +57,10 @@ nav {
     background-color: rgb(2, 133, 255);
 }
 
+#carouselExampleCaptions {
+    margin-top: -200px;
+}
+
 .about {
     position: relative;
     display: flex;
